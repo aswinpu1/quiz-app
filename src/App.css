@@ -1,0 +1,118 @@
+  #next-button{
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: box-shadow 0.2s;
+    width: 200px;
+    position: absolute;
+    bottom: 15px;
+}
+.option-btn:hover{
+    background-color: aliceblue;
+    color: aqua;
+}
+.checked{
+    background-color: blanchedalmond;
+    color: aqua;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+.option-btn{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    padding:10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s,color 0.3s;
+    margin: 5px;
+    min-height: 40px;
+    background-color:gray;
+    color: blue;
+    
+}
+.option-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px;
+}
+#question-number{
+    margin-right: 5px;
+}
+.question{
+    margin: 20px 0;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading-txt{
+    color: antiquewhite;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    min-height: 100vh;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.option-btn {
+    background-color: white;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.checked {
+    background-color: #007bff; /* Blue background for selected option */
+    color: white; /* White text for selected option */
+    border: 2px solid #0056b3;
+}
